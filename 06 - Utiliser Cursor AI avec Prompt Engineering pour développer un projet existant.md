@@ -87,7 +87,7 @@ Une page d’accueil fonctionnelle avec des blocs interactifs pour chaque catég
    - Exécutez les commandes suivantes :
 
    ```bash
-   cd test1
+   cd Skillr1
    npm install
    npm start
    ```
