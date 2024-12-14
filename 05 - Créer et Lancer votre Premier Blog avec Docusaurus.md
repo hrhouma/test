@@ -134,7 +134,9 @@ Je rencontre un problème avec Docusaurus : la page http://localhost:3000/docs
    ## Bienvenue sur votre documentation !
 
 2. La configuration dans `docusaurus.config.js` ressemble à ceci :
-   ```
+
+   ```ssh
+
    presets: [
      [
        '@docusaurus/preset-classic',
@@ -147,7 +149,10 @@ Je rencontre un problème avec Docusaurus : la page http://localhost:3000/docs
        },
      ],
    ],
+
+   
    ```
+
 
 3. La commande `npx docusaurus start` démarre le site, mais le chemin `/docs/intro` ne fonctionne pas et retourne une erreur **Page Not Found**.
 
