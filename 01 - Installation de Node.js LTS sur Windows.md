@@ -85,7 +85,7 @@ Après l'installation, vous devez vérifier que Node.js fonctionne correctement.
 
 ---
 
-# Étape 4 : Résolution des problèmes courants
+# Étape 4 (OPTIONELLE): Résolution des problèmes courants
 
 - **Erreur "commande introuvable"** :  
    Si les commandes `node`, `npm`, ou `npx` ne fonctionnent pas, cela peut être dû à un problème de **variable d'environnement**. Redémarrez votre ordinateur et réessayez. Si cela persiste :
