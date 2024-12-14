@@ -77,6 +77,10 @@ Docusaurus fournit des fichiers de documentation et un blog par défaut. Voici c
    - Les fichiers de documentation sont dans le répertoire **`/docs`**.
    - Les articles de blog sont dans **`/blog`**.
 
+#### Testez :
+- http://localhost:3000/docs/intro
+- http://localhost:3000/blog
+
 2. **Modifier un document** :
    - Ouvrez le fichier `docs/intro.md` dans un éditeur comme VS Code.  
      Remplacez le contenu par :  
