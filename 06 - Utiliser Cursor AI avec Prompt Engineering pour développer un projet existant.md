@@ -65,8 +65,7 @@
 
 
 ⚠️ **Prompt à copier et coller dans Composer :**  
-> Configurez une plateforme avec Docusaurus :  
-> - Installez un projet Docusaurus classique.  
+> Refacorisez le projet Docusaurus existant pour effectuer les tâches suivantes:  
 > - Créez une page d’accueil avec des blocs représentant les catégories principales suivantes :  
 >   - **Linux**  
 >   - **Ansible**  
@@ -77,7 +76,8 @@
 >   - **Helm**  
 >   - **Introduction à DevOps**  
 > - Chaque bloc doit inclure un titre et une icône (utilisez des icônes placeholders pour l’instant).  
-> - Configurez les blocs pour qu’ils redirigent vers une page placeholder dédiée à chaque catégorie.  
+> - Configurez les blocs pour qu’ils redirigent vers une page placeholder dédiée à chaque catégorie.
+> - Rendez le blog attrayant digne de visites de 1 millions d'utilisateurs
 
 **Livrable attendu :**  
 Une page d’accueil fonctionnelle avec des blocs interactifs pour chaque catégorie.  
