@@ -33,17 +33,18 @@ Exploiter **Cursor AI** pour organiser, développer, et enrichir un projet éduc
 3. **Vérifiez que Cursor AI est correctement initialisé :**
    - Une fois ouvert, vous devriez voir la structure de votre projet (fichiers, répertoires, etc.) dans l'interface Cursor.
 
----
-
 
 ---
-# **Prompt 1 : Configuration de base du projet**  
+# **Prompt 1 : 🚧 Configuration de base du projet**  
 ---
 
-**Objectif :**  
-Créer une structure de base pour la plateforme éducative en utilisant **Docusaurus**. La page d’accueil doit présenter les catégories principales sous forme de blocs carrés ou tuiles dynamiques. Chaque bloc doit être cliquable et rediriger vers une page placeholder pour la catégorie.  
+🔑 **Étape clé** : Posez les fondations solides pour votre projet.  
+⚙️ **Ce que vous allez faire** : Configurer les éléments essentiels pour démarrer rapidement et efficacement.  
+📋 **Objectif** : Assurer une structure structure de base pour la plateforme éducative en utilisant **Docusaurus**. La structure doit être claire et prête à évoluer 🚀. La page d’accueil doit présenter les catégories principales sous forme de blocs carrés ou tuiles dynamiques. Chaque bloc doit être cliquable et rediriger vers une page placeholder pour la catégorie.  
 
-**Prompt :**  
+
+
+⚠️ **Prompt à copier et coller dans Composer :**  
 > Configurez une plateforme avec Docusaurus :  
 > - Installez un projet Docusaurus classique.  
 > - Créez une page d’accueil avec des blocs représentant les catégories principales suivantes :  
@@ -82,11 +83,15 @@ Une page d’accueil fonctionnelle avec des blocs interactifs pour chaque catég
    - Vérifiez que les blocs sont alignés et clairement lisibles.  
 
 
+
 ---
-# **Prompt 2 : réorganiser les catégories selon leur ordre d'apprentissage en DevOps** 
+# **Prompt 2 : 📚 Réorganiser les catégories selon leur ordre d'apprentissage en DevOps**  
 ---
 
-**Prompt :**  
+🔍 **Ce que vous allez faire** : Structurer un chemin d'apprentissage clair et progressif dans le domaine du DevOps.  
+📈 **But** : Guider un débutant à travers les concepts, des bases solides jusqu'aux outils avancés.  
+
+⚠️ **Prompt à copier et coller dans Composer :**  
 "Réorganise les catégories suivantes selon un ordre logique d'apprentissage dans le domaine DevOps, en partant des concepts de base vers les concepts avancés : Introduction to DevOps, Linux, Ansible, Terraform, Kubernetes, Helm, GitOps, Jenkins. L'ordre doit refléter une progression naturelle pour un apprenant débutant dans le domaine DevOps."
 
 
@@ -95,13 +100,19 @@ Une page d’accueil fonctionnelle avec des blocs interactifs pour chaque catég
    ```
 
 ---
-# **Prompt 3 : Ajout des modules et sous-catégories dans chaque catégorie**  
+# **Prompt 3 : 🗂️ Ajout des modules et sous-catégories dans chaque catégorie**  
 ---
 
-**Objectif :**  
-Organiser chaque catégorie en modules, avec des sous-catégories et des leçons fictives pour tester la navigation.  
+🎯 **Objectif** : Structurer chaque catégorie en modules clairs, avec des sous-catégories et des leçons fictives pour tester l'expérience utilisateur et la navigation.  
 
-**Prompt :**  
+💡 **Ce que vous allez faire** :  
+- Décomposer chaque catégorie en modules bien définis.  
+- Ajouter des sous-catégories pertinentes pour une organisation optimale.  
+- Créer des leçons fictives pour simuler une navigation fluide et engageante.  
+
+
+⚠️ **Prompt à copier et coller dans Composer :**  
+
 > Ajoutez des modules pour chaque catégorie.
 > Configurez chaque module avec des sous-catégories et leçons comme suit :  
 > - **Modules de Linux** : Introduction, Administration Système, Sécurité, Réseau, etc.  
