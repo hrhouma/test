@@ -6,7 +6,7 @@ Bonjour à tous ! Aujourd'hui, nous allons apprendre **comment installer Node.js
 
 ---
 
-### Étape 1 : Télécharger Node.js (Version LTS)
+# Étape 1 : Télécharger Node.js (Version LTS)
 
 1. **Ouvrez votre navigateur web**.
 2. Rendez-vous sur le site officiel de Node.js :  
@@ -19,7 +19,7 @@ Bonjour à tous ! Aujourd'hui, nous allons apprendre **comment installer Node.js
 
 ---
 
-### Étape 2 : Installer Node.js via l’exécutable `.msi`
+# Étape 2 : Installer Node.js via l’exécutable `.msi`
 
 1. **Double-cliquez sur le fichier téléchargé** (`node-vXX.X.X-x64.msi`) pour lancer l'installation.
 2. **Suivez ces étapes dans l’assistant d’installation** :
@@ -32,7 +32,7 @@ Bonjour à tous ! Aujourd'hui, nous allons apprendre **comment installer Node.js
 
 ---
 
-### Étape 3 : Tester l'installation de Node.js
+# Étape 3 : Tester l'installation de Node.js
 
 Après l'installation, vous devez vérifier que Node.js fonctionne correctement. Voici comment procéder :
 
@@ -85,7 +85,7 @@ Après l'installation, vous devez vérifier que Node.js fonctionne correctement.
 
 ---
 
-### Étape 4 : Résolution des problèmes courants
+# Étape 4 : Résolution des problèmes courants
 
 - **Erreur "commande introuvable"** :  
    Si les commandes `node`, `npm`, ou `npx` ne fonctionnent pas, cela peut être dû à un problème de **variable d'environnement**. Redémarrez votre ordinateur et réessayez. Si cela persiste :
