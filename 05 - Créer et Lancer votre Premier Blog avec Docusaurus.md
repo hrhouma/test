@@ -51,10 +51,16 @@ Avant de commencer, assurez-vous que les outils suivants sont installés sur vot
 1. **Démarrer le serveur de développement** :  
    Dans le terminal, exécutez :  
    ```bash
-   npx docusaurus start ou npm start
+   npx docusaurus start 
    ```
 
-2. **Accéder au site** :  
+   ou
+
+   ```bash
+   npm start
+   ```
+
+3. **Accéder au site** :  
    - Ouvrez votre navigateur et allez à l’adresse suivante :  
      👉 [http://localhost:3000](http://localhost:3000)
    - Vous verrez votre site en ligne, prêt à être personnalisé.
