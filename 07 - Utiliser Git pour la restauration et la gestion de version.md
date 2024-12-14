@@ -7,7 +7,7 @@
 
 ---
 
-## **Étape 1 : Initialisation et premier commit**
+# **Étape 1 : Initialisation et premier commit**
 
 ### 1. Créez un dépôt Git
 - Accédez au dossier contenant vos fichiers :
@@ -55,7 +55,7 @@
 
 ---
 
-## **Étape 2 : Effectuer des modifications et tester**
+# **Étape 2 : Effectuer des modifications et tester**
 
 ### 1. Travaillez sur votre projet ou exécutez un prompt
 - Exemple de prompt :
@@ -69,7 +69,7 @@
 
 ---
 
-## **Étape 3 : Restauration en cas de besoin**
+# **Étape 3 : Restauration en cas de besoin**
 
 ### Cas 1 : Annuler des changements récents (non commités)
 - Revenir à l’état initial du dernier commit :
@@ -104,7 +104,7 @@
 
 ---
 
-## **Étape 4 : Sauvegarder avant des modifications risquées**
+# **Étape 4 : Sauvegarder avant des modifications risquées**
 
 ### Pourquoi sauvegarder avant d’exécuter des prompts "dangereux" ?
 Si vous travaillez sur des modifications importantes ou complexes (ex. : *"Changer la logique métier"*), une sauvegarde préalable est essentielle pour éviter de perdre une version stable.
@@ -127,7 +127,7 @@ Si vous travaillez sur des modifications importantes ou complexes (ex. : *"Chang
 
 ---
 
-## **Étape 5 : Restaurer après un échec**
+# **Étape 5 : Restaurer après un échec**
 
 Si le résultat du prompt n’est pas satisfaisant, procédez ainsi :
 
@@ -194,28 +194,10 @@ Git est votre meilleur allié pour expérimenter sans peur de perdre vos fichier
 
 
 
+------------------
+## Annexe 01 - *Revenir au dernier commit, deux commits en arrière , ...cinq commits en arrière*
+------------------
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Cela rétablit le dépôt à son dernier commit enregistré, supprimant les changements non commités.
-
-*Revenir au dernier commit, deux commits en arrière , ...cinq commits en arrière*
 
 ```bash
 # Revenir au dernier commit et annuler toutes les modifications non sauvegardées
@@ -239,9 +221,16 @@ git reset --hard HEAD~5
 
 
 
+------------------
+## Annexe 02 - *Prompts gagants*
+------------------
 
----
-# Prompt 6 : prompt universel
----
+#### Prompt gagant 1
 
-"Améliore le design pour qu'il soit digne d'attirer et d'engager des millions d'utilisateurs. Assure-toi qu'il soit moderne, intuitif, visuellement captivant, et qu'il offre une expérience utilisateur exceptionnelle."
+"Conçois un design capable de captiver et engager des millions d'utilisateurs. Assure-toi qu'il soit moderne, intuitif, et esthétiquement remarquable, tout en offrant une expérience utilisateur fluide, immersive et mémorable. Intègre des principes de design axés sur l'ergonomie, la simplicité, et une navigation claire, tout en garantissant une compatibilité optimale sur toutes les plateformes et appareils."
+
+
+#### Prompt gagant 2
+
+"Utilise la bibliothèque Three.js pour concevoir des animations 3D captivantes, futuristes et immersives. Intègre des éléments visuels high-tech, inspirés par l'intelligence artificielle et la programmation avancée, tout en mettant l'accent sur des transitions fluides et dynamiques. Assure-toi que le rendu soit à la fois moderne et techniquement impressionnant, avec une esthétique avant-gardiste qui reflète l'innovation et la complexité de l'IA. Priorise une interaction utilisateur intuitive et une expérience immersive sur toutes les plateformes."
+
