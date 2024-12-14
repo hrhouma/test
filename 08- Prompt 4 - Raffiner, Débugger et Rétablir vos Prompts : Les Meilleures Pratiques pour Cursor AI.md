@@ -11,32 +11,22 @@
 # **Prompt 4 : 🎯 Raffiner les Catégories une par une**  
 ---
 
-## **Prompt 4-1 : 🛠️ Organisation de la Catégorie "Linux"**  
-
-✨ **Objectif :**  
-Voici le prompt que vous pouvez donner à Cursor pour organiser et structurer la catégorie **"Linux"** avec des modules et leçons dans l'ordre logique que vous définissez vous-même.  
-
-**📋 Prompt 4-1 :**  
-
-> **"Réorganise et structure la catégorie 'Linux'** en conservant le style actuel mais en affichant les modules et leçons suivants dans cet ordre logique.  
-> - ✅ Ajoute les descriptions si nécessaires.  
-> - 🖌️ Veille à ce que le format reste cohérent avec le design actuel.  
->  
-
-
 🎯 **Pourquoi ce prompt ?**  
 - Permet de structurer efficacement la catégorie Linux.  
 - Fournit un cadre clair pour les modules et les leçons à afficher.
 
 
 
+## **Prompt 4-1 : 🛠️ Organisation de la Catégorie "Linux"**  
 
+✨ **Objectif :**  
+Je vous propose un exemple de prompt que vous pouvez donner à Cursor pour organiser et structurer la catégorie **"Linux"** avec des modules et leçons dans l'ordre logique que vous définissez vous-même.  
 
+**📋 Prompt 4-1 :**  
 
-
-
-
----
+> **"Réorganise et structure la catégorie 'Linux'** en conservant le style actuel mais en affichant les modules et leçons suivants dans cet ordre logique.  
+> - ✅ Ajoute les descriptions si nécessaires.  
+> - 🖌️ Veille à ce que le format reste cohérent avec le design actuel.  
 
 ### Linux  
 Découvrez les fondamentaux de Linux et son administration système.
@@ -104,8 +94,6 @@ Découvrez les fondamentaux de Linux et son administration système.
 ---
 
 Garde le style général, avec des cartes ou des sections pour chaque module et des leçons listées sous chaque module."
-
-
 
 
 
