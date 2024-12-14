@@ -1,7 +1,8 @@
-# Utiliser Cursor AI avec Prompt Engineering pour développer un projet existant
+# Utiliser Cursor AI avec Prompt Engineering pour développer un projet existant ( les trois premiers prompts)
 
 **Objectif :**  
-Exploiter **Cursor AI** pour organiser, développer, et enrichir un projet éducatif basé sur **Docusaurus**, sans toucher manuellement aux fichiers.
+- Exploiter **Cursor AI** pour organiser, développer, et enrichir un projet éducatif basé sur **Docusaurus**, sans toucher manuellement aux fichiers.
+- Utilisation des trois premiers prompts pour poser les bases, structurer l'organisation, et enrichir les fonctionnalités du projet.
 
 
 # Introduction 
