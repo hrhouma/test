@@ -112,7 +112,7 @@ Une page d’accueil fonctionnelle avec des blocs interactifs pour chaque catég
 📈 **But** : Guider un débutant à travers les concepts, des bases solides jusqu'aux outils avancés.  
 
 ⚠️ **Prompt à copier et coller dans Composer :**  
-"Réorganise les catégories suivantes selon un ordre logique d'apprentissage dans le domaine DevOps, en partant des concepts de base vers les concepts avancés : Introduction to DevOps, Linux, Ansible, Terraform, Kubernetes, Helm, GitOps, Jenkins. L'ordre doit refléter une progression naturelle pour un apprenant débutant dans le domaine DevOps."
+"Réorganise les catégories suivantes selon un ordre logique d'apprentissage dans le domaine DevOps, en partant des concepts de base vers les concepts avancés. L'ordre doit refléter une progression naturelle pour un apprenant débutant dans le domaine DevOps."
 
 
   ```bash
