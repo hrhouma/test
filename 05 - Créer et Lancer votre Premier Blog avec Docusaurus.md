@@ -123,10 +123,13 @@ Docusaurus fournit des fichiers de documentation et un blog par défaut. Voici c
 
 ## **🔍 Étape 1 : Prompt Initial (Il se peut que cela ne fonctionne pas immédiatement)**  
 
-   ```
-Je rencontre un problème avec Docusaurus : la page http://localhost:3000/docs/intro retourne une erreur **Page Not Found**. Cela semble lié à un problème de chemin ou de configuration. Voici les détails :
+ ```
 
-1. Le fichier `intro.md` est situé dans le répertoire `/docs` et contient cet en-tête frontmatter :
+# Prompt 01
+
+> Je rencontre un problème avec Docusaurus : la page http://localhost:3000/docs/intro retourne une erreur **Page Not Found**.
+> Cela semble lié à un problème de chemin ou de configuration. Voici les détails :
+> 1. Le fichier `intro.md` est situé dans le répertoire `/docs` et contient cet en-tête frontmatter :
    ---
    id: intro
    title: Introduction
