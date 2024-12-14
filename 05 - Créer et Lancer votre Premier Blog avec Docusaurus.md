@@ -4,7 +4,7 @@ Dans ce tutoriel, nous allons apprendre à créer un site web attractif et profe
 
 ---
 
-### Étape 1 : Installer les prérequis
+# Étape 1 : Installer les prérequis
 
 Avant de commencer, assurez-vous que les outils suivants sont installés sur votre machine :
 
@@ -25,7 +25,7 @@ Avant de commencer, assurez-vous que les outils suivants sont installés sur vot
 
 ---
 
-### Étape 2 : Créer votre application Docusaurus
+# Étape 2 : Créer votre application Docusaurus
 
 1. **Créer le projet** :  
    Ouvrez un terminal et exécutez la commande suivante :  
@@ -46,22 +46,24 @@ Avant de commencer, assurez-vous que les outils suivants sont installés sur vot
 
 ---
 
-### Étape 3 : Lancer votre site localement
+# Étape 3 : Lancer votre site localement
 
 1. **Démarrer le serveur de développement** :  
    Dans le terminal, exécutez :  
    ```bash
-   npx docusaurus start
+   npx docusaurus start ou npm start
    ```
 
 2. **Accéder au site** :  
    - Ouvrez votre navigateur et allez à l’adresse suivante :  
      👉 [http://localhost:3000](http://localhost:3000)
    - Vous verrez votre site en ligne, prêt à être personnalisé.
+   - Vérifiez la page d'introduction :
+     👉 [http://localhost:3000](http://localhost:3000/docs/intro)
 
 ---
 
-### Étape 4 : Personnaliser le contenu
+# Étape 4 : Personnaliser le contenu
 
 Docusaurus fournit des fichiers de documentation et un blog par défaut. Voici comment les modifier pour adapter votre site :
 
@@ -86,9 +88,16 @@ Docusaurus fournit des fichiers de documentation et un blog par défaut. Voici c
      - Faire de votre blog une plateforme incontournable.
      ```
 
-# Obligatoire :
 
-- Regardez l'ANNEXE 01 pour maîtriser le troubleshooting avec Cursor Ai
+   - Vérifiez la nouvelle page d'introduction :
+     👉 [http://localhost:3000](http://localhost:3000/docs/intro)
+
+
+> **☠️ Vous avez un problème ? Pas de panique, nous allons le résoudre ensemble.**
+> **☠️ Oui, c’est voulu !** Les problèmes sont une occasion d’apprendre et de progresser. Nous allons maintenant appliquer le **prompt engineering** pour aller plus loin.
+> Consultez **l’annexe 01 ☠️** : elle contient toutes les informations nécessaires pour maîtriser le troubleshooting avec **Cursor AI**.
+
+
 
 3. **Ajouter un article de blog** :
    - Créez un nouveau fichier dans **`/blog`**, par exemple `premier-article.md`, avec ce contenu :  
@@ -106,6 +115,25 @@ Docusaurus fournit des fichiers de documentation et un blog par défaut. Voici c
 4. **Recharger votre site** :  
    - Enregistrez vos modifications, et votre site sera automatiquement mis à jour dans le navigateur.
 
+
+   - Vérifiez la nouvelle page de blog :
+     👉 [http://localhost:3000](http://localhost:3000/blog)
+
+
+> **☠️ Vous avez un problème ? Pas de panique, nous allons le résoudre ensemble.**
+> **☠️ Oui, c’est voulu !** Les problèmes sont une occasion d’apprendre et de progresser. Nous allons maintenant appliquer le **prompt engineering** pour aller plus loin.
+> Consultez **l’annexe 02 ☠️** : elle contient toutes les informations nécessaires pour maîtriser le troubleshooting avec **Cursor AI**.
+
+
+
+
+
+
+
+
+
+----------
+------------
 
 
 # Annexe 01 - 🚀 Résolution du Problème "Page Not Found" sur Docusaurus  
