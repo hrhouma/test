@@ -8,10 +8,10 @@ Si vous êtes sur Windows et que vous souhaitez une installation simple et rapid
 
 1. **Accédez au site officiel de Cursor AI** :
    - Ouvrez votre navigateur et allez sur :  
-     👉 [https://getcursor.com](https://getcursor.com) (ou le dépôt officiel sur GitHub si indiqué).
+     👉 [https://cursor.com](https://www.cursor.com/) (ou le dépôt officiel sur GitHub si indiqué).
 
 2. **Téléchargez l’exécutable pour Windows** :
-   - Recherchez la section "Downloads" ou "Releases".
+   - Recherchez le bouton "Downloads for windows" ou "Releases".
    - Cliquez sur le fichier correspondant à Windows, généralement nommé :  
      `CursorAI-Setup-x.x.x.exe`.
 
