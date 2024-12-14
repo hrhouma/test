@@ -100,7 +100,7 @@ Docusaurus fournit des fichiers de documentation et un blog par défaut. Voici c
 
 
    - Vérifiez la nouvelle page d'introduction :
-     👉 [http://localhost:3000/intro](http://localhost:3000/docs/intro)
+     👉 [http://localhost:3000/docs/intro](http://localhost:3000/docs/intro)
 
 
 > **☠️ Vous avez un problème ? Pas de panique, nous allons le résoudre ensemble.**
