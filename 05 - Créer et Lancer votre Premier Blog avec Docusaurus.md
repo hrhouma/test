@@ -339,9 +339,8 @@ Voici ce que j’ai vérifié jusqu’à présent :
      showReadingTime: true,
    },
    ```
-3. J’ai redémarré le serveur avec `npx docusaurus start`.  
 
-```
+3. J’ai redémarré le serveur avec `npx docusaurus start` ou `npm start`.  
 
 
 
