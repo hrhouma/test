@@ -133,25 +133,24 @@ Docusaurus fournit des fichiers de documentation et un blog par défaut. Voici c
 
 
 ----------
-------------
 
 
-# Annexe 01 - 🚀 Résolution du Problème "Page Not Found" sur Docusaurus  
+# Annexe 01 - Résolution du Problème "Page Not Found" sur Docusaurus  
 
-## **🌟 Méthodologie : Approche Itérative avec Cursor AI**  
-1. **📍 Tester le chemin suivant dans votre navigateur :**  
+## **Méthodologie : Approche Itérative avec Cursor AI**  
+1. **Tester le chemin suivant dans votre navigateur :**  
    **http://localhost:3000/docs/intro**  
 
    **Résultat attendu :** La page s’affiche correctement.  
-   **Résultat actuel :** ❌ **"Page Not Found"**  
+   **Résultat actuel :** "Page Not Found"  
 
 2. Utiliser Cursor AI pour identifier et résoudre le problème étape par étape.  
 
 ---
 
-## **🔍 Étape 1 : Prompt Initial (Il se peut que cela ne fonctionne pas immédiatement)**  
+# **Étape 1 : Prompt Initial (Il se peut que cela ne fonctionne pas immédiatement)**  
 
- ```
+```
 
 # Prompt 01
 
@@ -164,28 +163,24 @@ Docusaurus fournit des fichiers de documentation et un blog par défaut. Voici c
    ---
    ## Bienvenue sur votre documentation !
 
-   ```
+```
 
 2. La configuration dans `docusaurus.config.js` ressemble à ceci :
 
-   ```ssh
-
-   presets: [
-     [
-       '@docusaurus/preset-classic',
-       {
-         docs: {
-           path: 'docs',
-           routeBasePath: 'docs',
-           sidebarPath: require.resolve('./sidebars.js'),
-         },
-       },
-     ],
-   ],
-
-   
-   ```
-
+```javascript
+presets: [
+  [
+    '@docusaurus/preset-classic',
+    {
+      docs: {
+        path: 'docs',
+        routeBasePath: 'docs',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    },
+  ],
+],
+```
 
 3. La commande `npx docusaurus start` démarre le site, mais le chemin `/docs/intro` ne fonctionne pas et retourne une erreur **Page Not Found**.
 
@@ -194,100 +189,286 @@ Docusaurus fournit des fichiers de documentation et un blog par défaut. Voici c
 2. S'assurer que la page `/docs/intro` s'affiche correctement sur http://localhost:3000/docs/intro.
 3. Obtenir des étapes claires pour corriger ce problème.
 
-Merci !
-
-
-**🌐 Tester à nouveau le chemin :**  
-- **Résultat :** Toujours **Page Not Found** ❌  
+**Tester à nouveau le chemin :**  
+- **Résultat :** Toujours **Page Not Found**  
 
 ---
 
-## **🔄 Étape 2 : Prompt Simplifié (Basique)**  
+# **Étape 2 : Prompt Simplifié (Basique)**  
 
-- **Prompt 02:**
+- **Prompt 02 :**
   
 ```
 J'ai toujours le même problème : la page http://localhost:3000/docs/intro retourne une erreur **Page Not Found** malgré les modifications précédentes. Pouvez-vous m'aider à diagnostiquer davantage ?
 ```
 
+**Tester à nouveau le chemin :**  
+- **Résultat :** Toujours **Page Not Found**  
 
-## **✨ Conseil Pro :**  
+---
+
+
+# **Étape 3 (optionnelle) : Prompt avanc.**  
+
+- Ce prompt met l'accent sur le problème spécifique du lien brisé et invite à examiner les fichiers de configuration ainsi que le contenu du fichier `intro.md`.
+- Le prompt clair et détaillé pour insister sur la nécessité de vérifier le lien brisé entre `/docs/intro` et le fichier `intro.md` :
+
+---
+
+**Prompt :**  
+> J'ai un problème avec Docusaurus : le chemin **http://localhost:3000/docs/intro** retourne une erreur **Page Not Found**.  
+> Après analyse, il semble y avoir un lien brisé entre l’URL `/docs/intro` et le fichier `intro.md`. Voici les détails :  
+>   
+> - **Le fichier `intro.md`** est situé dans le dossier `docs/` et contient le frontmatter suivant :  
+>   ```markdown
+>   ---
+>   id: intro
+>   title: Introduction
+>   ---
+>   ## Bienvenue sur votre documentation !
+>   ```
+>   
+> - **Le fichier `docusaurus.config.js`** inclut cette configuration pour les documents :  
+>   ```javascript
+>   docs: {
+>     path: 'docs',
+>     routeBasePath: 'docs',
+>     sidebarPath: require.resolve('./sidebars.js'),
+>   },
+>   ```
+>   
+> **Points à vérifier :**  
+> 1. Le fichier `intro.md` est-il correctement référencé dans la barre latérale (`sidebars.js`) ?  
+> 2. La configuration `id: intro` dans `intro.md` correspond-elle bien à l'URL `/docs/intro` ?  
+> 3. La configuration dans `docusaurus.config.js` ou dans `sidebars.js` contient-elle des erreurs ?  
+>   
+> **Ce que je souhaite :**  
+> - Diagnostiquer précisément pourquoi `/docs/intro` ne trouve pas `intro.md`.  
+> - Vérifier si le problème vient du chemin d’accès, du frontmatter, ou de la configuration dans `docusaurus.config.js` ou `sidebars.js`.  
+> - Proposer des étapes détaillées pour corriger le lien entre l’URL `/docs/intro` et le fichier `intro.md`.  
+
+
+
+---
+
+## **Conseil Pro :**  
 Toujours tester après chaque modification avec **http://localhost:3000/docs/intro** et redémarrer votre serveur avec :  
 ```bash
 npx docusaurus start ou npm start
+```  
+
+
+
+
+
+
+
+-------------------
+# Annexe 02 - Résolution du Problème "Blog Page Not Found" sur Docusaurus  
+-------------------
+
+## **Méthodologie : Approche Itérative avec Cursor AI**  
+1. **Tester le chemin suivant dans votre navigateur :**  
+   **http://localhost:3000/blog**  
+
+   **Résultat attendu :** La page s’affiche correctement avec le nouvel article de blog.  
+   **Résultat actuel :** "Page Not Found"  
+
+2. Utiliser Cursor AI pour identifier et résoudre le problème étape par étape.  
+
+---
+
+# **Étape 1 : Prompt Initial (Première tentative)**  
+
+```
+
+# Prompt 01
+
+> J'ai un problème avec Docusaurus : la page http://localhost:3000/blog retourne une erreur **Page Not Found**.
+> Voici les détails :
+> 1. J’ai ajouté un nouveau fichier `premier-article.md` dans le répertoire `/blog`.  
+>    Voici son contenu :  
+>    ```markdown
+>    ---
+>    title: Mon aventure avec Skillr1
+>    description: Découvrez comment créer un blog attractif en quelques minutes avec Docusaurus.
+>    author: Votre Nom
+>    tags: [docusaurus, blog, éducation]
+>    ---
+>    ## Bienvenue sur Skillr1
+>    Avec Docusaurus, j’ai rapidement mis en ligne un blog pour partager mes cours et documents. C'est simple, rapide, et efficace !
+>    ```
+> 2. J’ai sauvegardé mes modifications, et le serveur est automatiquement mis à jour.  
+> 3. La page `http://localhost:3000/blog` ne fonctionne toujours pas.  
+
+### Ce que je souhaite :
+1. Diagnostiquer pourquoi la page `/blog` ne trouve pas le fichier `premier-article.md`.
+2. Vérifier si le problème vient du fichier de configuration `docusaurus.config.js`, de la structure du dossier, ou du frontmatter.
+3. Obtenir des étapes claires pour corriger ce problème et afficher la page de blog correctement.
+
+```
+
+**Tester à nouveau le chemin :**  
+- **Résultat :** Toujours **Page Not Found**  
+
+---
+
+# **Étape 2 : Vérifications simplifiées et prompt adapté pour le problème lié au blog** :
+
+---
+
+**Prompt 02 :**
+
+```
+J'ai toujours le même problème : la page http://localhost:3000/blog retourne une erreur **Page Not Found** malgré les modifications précédentes. Pouvez-vous m'aider à diagnostiquer davantage ?  
+
+Voici ce que j’ai vérifié jusqu’à présent :  
+1. J’ai ajouté un fichier `premier-article.md` dans le dossier `/blog` avec un frontmatter valide :  
+   ---
+   title: Mon aventure avec Skillr1
+   description: Découvrez comment créer un blog attractif en quelques minutes avec Docusaurus.
+   author: Votre Nom
+   tags: [docusaurus, blog, éducation]
+   ---
+2. La configuration dans `docusaurus.config.js` inclut une section `blog` :  
+   ```javascript
+   blog: {
+     path: './blog',
+     routeBasePath: 'blog',
+     include: ['*.md', '*.mdx'],
+     showReadingTime: true,
+   },
+   ```
+3. J’ai redémarré le serveur avec `npx docusaurus start`.  
+
 ```
 
 
-**🌐 Tester à nouveau le chemin :**  
-- **Résultat :** **Problème résolu** ✅  
 
+- Vérifiez :  
 
+1. **Structure des dossiers :**  
+   - Le fichier `premier-article.md` est-il bien placé dans le répertoire `/blog` ?  
+
+2. **Frontmatter :**  
+   - Le fichier contient-il un frontmatter valide avec les champs obligatoires comme `title`, `description`, et `tags` ?  
+
+3. **Configuration dans `docusaurus.config.js` :**  
+   - La section `blog` est-elle correctement configurée dans le fichier ? Par exemple :
+
+     ```javascript
+     presets: [
+       [
+         '@docusaurus/preset-classic',
+         {
+           blog: {
+             path: './blog',
+             routeBasePath: 'blog',
+             include: ['*.md', '*.mdx'],
+           },
+         },
+       ],
+     ],
+     ```
+
+4. **Redémarrage du serveur :**  
+   - Avez-vous redémarré le serveur après avoir ajouté l'article de blog ?  
 
 ---
 
-## **🛠 Étape 3 (OPTIONNELLE) : Prompt Avancé pour Approfondir la Résolution**  
 
-Voici les modifications qui ont corrigé le problème :  
+# **Étape 3 (OPTIONNELLE) : Prompt avancé pour un diagnostic approfondi**  
 
-### **Modification du fichier `docs/intro.md` :**
-```markdown
----
-id: intro
-title: Introduction
-sidebar_position: 1
----
 ```
 
-### **Simplification de `docusaurus.config.js` :**
-```javascript
-docs: {
-  sidebarPath: require.resolve('./sidebars.js'), // Lien vers les barres latérales
-  // Suppression des paramètres inutiles comme `routeBasePath` et `path`
-},
+# Prompt 03
+
+> J'ai un problème avec Docusaurus : la page http://localhost:3000/blog retourne toujours une erreur **Page Not Found** malgré les vérifications suivantes :  
+> 1. Le fichier `premier-article.md` est bien placé dans le dossier `/blog` et contient un frontmatter valide.  
+> 2. La configuration dans `docusaurus.config.js` inclut bien la section suivante :  
+>    ```javascript
+>    blog: {
+>      path: './blog',
+>      routeBasePath: 'blog',
+>      include: ['*.md', '*.mdx'],
+>    },
+>    ```
+> 3. Le serveur a été redémarré avec la commande `npx docusaurus start`.  
+> 4. La structure des fichiers est correcte, mais la page ne se charge toujours pas.  
+
+### Ce que je souhaite :  
+1. Diagnostiquer pourquoi la page `/blog` ne trouve pas les articles du dossier `/blog`.  
+2. Vérifier si le problème vient du fichier `docusaurus.config.js` ou d’un cache mal rafraîchi.  
+3. Obtenir des étapes détaillées pour corriger ce problème et afficher le blog correctement.  
+
 ```
 
-### **Modification de `sidebars.js` :**
-```javascript
-const sidebars = {
-  tutorialSidebar: [ // Changement de 'docs' à 'tutorialSidebar'
-    'intro',
-    {
-      type: 'category',
-      label: 'Linux',
-      items: [], // Ajouter vos éléments si nécessaire
-    },
-  ],
-};
-
-module.exports = sidebars;
-```
+**Tester à nouveau le chemin :**  
+- **Résultat :** Toujours **Page Not Found**  
 
 ---
 
-## **✅ Points Clés de la Solution :**  
-1. **🛠 Utilisation de `tutorialSidebar`** au lieu de `docs` dans la configuration des barres latérales.  
-2. **❌ Suppression des configurations superflues** dans `docusaurus.config.js` pour éviter les conflits.  
-3. **📄 Simplification du frontmatter dans `intro.md`** pour garantir une structure conforme aux standards de Docusaurus.  
+# **Étape 4 (OPTIONNELLE): Correction et solution potentielle**  
 
-**🌐 Résultat Final :**  
-La page **http://localhost:3000/docs/intro** s’affiche correctement. 🎉  
+Voici les modifications qui peuvent corriger le problème :  
 
+1. **Vérifiez `premier-article.md` :**
+   - Assurez-vous que le fichier commence bien par un frontmatter valide :  
+     ```markdown
+     ---
+     title: Mon aventure avec Skillr1
+     description: Découvrez comment créer un blog attractif en quelques minutes avec Docusaurus.
+     author: Votre Nom
+     tags: [docusaurus, blog, éducation]
+     ---
+     ```
 
+2. **Modifiez `docusaurus.config.js` :**  
+   - Confirmez que la configuration de la section `blog` est correcte :  
+     ```javascript
+     presets: [
+       [
+         '@docusaurus/preset-classic',
+         {
+           blog: {
+             path: './blog',
+             routeBasePath: 'blog',
+             include: ['*.md', '*.mdx'],
+             showReadingTime: true,
+           },
+         },
+       ],
+     ],
+     ```
 
+3. **Nettoyez le cache et redémarrez le serveur :**  
+   - Supprimez le cache existant avec la commande :  
+     ```bash
+     rm -rf .docusaurus
+     ```
+   - Relancez le serveur :  
+     ```bash
+     npx docusaurus start
+     ```
+
+4. **Testez à nouveau l’URL :**  
+   - Rendez-vous sur **http://localhost:3000/blog** et vérifiez si la page fonctionne.
 
 ---
 
-## **✨ Conseil Pro :**  
-Toujours tester après chaque modification avec **http://localhost:3000/docs/intro** et redémarrer votre serveur avec :  
+# **Points Clés de la Solution :**  
+
+1. Assurez-vous que la structure du dossier `/blog` et le frontmatter de chaque article sont corrects.  
+2. Vérifiez que `docusaurus.config.js` inclut bien une section pour le blog.  
+3. Supprimez le cache en cas de problème persistant avant de redémarrer le serveur.  
+
+---
+
+## **Conseil Pro :**  
+Toujours tester après chaque modification en nettoyant le cache et en redémarrant le serveur avec :  
 ```bash
-npx docusaurus start ou npm start
+npx docusaurus start
 ```
-
-
-
-
-
-
 
 
 
