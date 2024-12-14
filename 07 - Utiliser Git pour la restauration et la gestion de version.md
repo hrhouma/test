@@ -234,3 +234,12 @@ git reset --hard HEAD~5
 
 "Utilise la bibliothèque Three.js pour concevoir des animations 3D captivantes, futuristes et immersives. Intègre des éléments visuels high-tech, inspirés par l'intelligence artificielle et la programmation avancée, tout en mettant l'accent sur des transitions fluides et dynamiques. Assure-toi que le rendu soit à la fois moderne et techniquement impressionnant, avec une esthétique avant-gardiste qui reflète l'innovation et la complexité de l'IA. Priorise une interaction utilisateur intuitive et une expérience immersive sur toutes les plateformes."
 
+
+#### Prompt gagant 3
+
+"Transforme entièrement le thème du design pour en faire une plateforme capable d'attirer et d'engager des trillions d'utilisateurs. Laisse libre cours à ta créativité pour concevoir une expérience visuelle et interactive révolutionnaire. Assure-toi que chaque élément reflète une ambition mondiale : une esthétique à couper le souffle, une navigation intuitive, des fonctionnalités innovantes et une approche centrée sur l'utilisateur, conçues pour captiver et fidéliser une audience massive."
+
+
+#### Prompt gagant 4
+
+"Conçois un design qui respecte les principes fondamentaux de l'accessibilité et de la lisibilité, en veillant à éviter toute combinaison de texte et de fond de la même couleur ou de contrastes insuffisants (par exemple, mauve sur mauve ou vert sur vert). Utilise Material Design comme référence, ou explore d'autres systèmes de design modernes et éprouvés. Assure-toi que chaque élément visuel respecte des standards élevés d'ergonomie et d'expérience utilisateur. En tant qu'architecte de l'interface, crée un équilibre entre esthétique, lisibilité et fonctionnalité, avec une palette de couleurs harmonieuse et contrastée, des typographies cohérentes, et des espaces bien organisés pour guider naturellement l'utilisateur."
