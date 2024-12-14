@@ -34,6 +34,17 @@ Exploiter **Cursor AI** pour organiser, développer, et enrichir un projet éduc
    - Une fois ouvert, vous devriez voir la structure de votre projet (fichiers, répertoires, etc.) dans l'interface Cursor.
 
 
+4. **⚠️ Ouvrir le terminal de Composer**
+
+- 🖥️ **Naviguer dans le menu :**  
+  `View` ➡️ `Open View` ➡️ `Composer`  
+
+![image](https://github.com/user-attachments/assets/2131b6c4-56d3-404f-b0cd-2c209c214c4e)
+
+
+![image](https://github.com/user-attachments/assets/8443588b-b7a5-43fe-926a-3cdfcbd194ae)
+
+
 ---
 # **Prompt 1 : 🚧 Configuration de base du projet**  
 ---
