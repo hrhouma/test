@@ -39,10 +39,10 @@ Exploiter **Cursor AI** pour organiser, développer, et enrichir un projet éduc
 - 🖥️ **Naviguer dans le menu :**  
   `View` ➡️ `Open View` ➡️ `Composer`  
 
-![image](https://github.com/user-attachments/assets/2131b6c4-56d3-404f-b0cd-2c209c214c4e)
+![image](https://github.com/user-attachments/assets/932e7fb6-61ad-405d-97bc-1613944f5331)
 
+![image](https://github.com/user-attachments/assets/1a53f83b-e6f3-4fdc-b15c-50173ab25316)
 
-![image](https://github.com/user-attachments/assets/8443588b-b7a5-43fe-926a-3cdfcbd194ae)
 
 
 ---
