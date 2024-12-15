@@ -1,0 +1,4 @@
+- https://medium.com/@md.alishanali/how-to-deploy-your-node-js-backend-project-to-vercel-a-step-by-step-guide-f92133c3b5e2
+- https://nexonauts.com/blog/articles/how-to-deploy-your-node.js-backend-on-vercel-a-step-by-step-guide?force_redirect=true
+- https://medium.com/@vivek76/a-step-by-step-guide-to-deploying-your-website-on-vercel-59c08437049b
+- https://kladds.medium.com/next-js-vercel-for-rapid-and-free-application-deployment-7a45da08ff07
