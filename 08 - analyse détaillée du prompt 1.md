@@ -21,9 +21,18 @@ Une page d’accueil fonctionnelle avec des blocs interactifs pour chaque catég
 
 # Réponse:
 
-### Cursor a répondu :
+### Cursor a répondu par 5 modifications :
 
-# Modification 1 : 
+- index.js ==> dans src/components/CategoryBlock/index.js (*Modification 1*)
+- styles.modules.css ==> dans src/components/CategoryBlock/styles.modules.css (*Modification 2*)
+- index.js ==> page d'accueil dans src/pages/index.js (*Modification 3*)
+- index.module.css ==> dans src/pages/index.js (*Modification 4*)
+- installer npm install react-icons (*Modification 5*)
+- docusaurus.config.js dans la racine (*Modification 5*)
+- introduction.md dans docs/linux/introduction.md (*Modification 5*)
+
+
+# Modification 1 
 
 - Je vais vous aider à restructurer votre projet Docusaurus. Je vais créer plusieurs fichiers pour organiser la page d'accueil avec les catégories demandées.
 
