@@ -131,37 +131,38 @@ Avant de commencer, assurez-vous que chaque étudiant a :
 2. Ajoutez ce contenu au fichier `deploy.yml` :
 
    ```yaml
-   name: Deploy Docusaurus to GitHub Pages
+name: Deploy Docusaurus to GitHub Pages
 
-   on:
-     push:
-       branches:
-         - main
+on:
+  push:
+    branches:
+      - main
 
-   jobs:
-     build-and-deploy:
-       runs-on: ubuntu-latest
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
 
-       steps:
-         - name: Checkout code
-           uses: actions/checkout@v3
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-         - name: Set up Node.js
-           uses: actions/setup-node@v3
-           with:
-             node-version: 18
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
 
-         - name: Install dependencies
-           run: npm ci
+      - name: Install dependencies
+        run: npm ci
 
-         - name: Build site
-           run: npm run build
+      - name: Build site
+        run: npm run build
 
-         - name: Deploy to GitHub Pages
-           uses: peaceiris/actions-gh-pages@v3
-           with:
-             github_token: ${{ secrets.GITHUB_TOKEN }}
-             publish_dir: ./build
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build  # Assure-toi que le dossier build est déployé
+
    ```
 
 **Explications :**
@@ -175,6 +176,18 @@ Avant de commencer, assurez-vous que chaque étudiant a :
 2. Cliquez sur **Pages**.
 3. Sous **Source**, sélectionnez **GitHub Actions**.
 
+
+
+### 5.3 **Vérifier les permissions de GitHub Actions**
+   - Assurez-vous que le workflow GitHub Actions dispose des permissions nécessaires pour pousser vers le dépôt. Dans les paramètres du dépôt :
+     - Accédez à **Paramètres > Actions > Général**.
+     - Faites défiler jusqu’à la section **Permissions des workflows**.
+     - Vérifiez que l’option **Permissions en lecture et écriture** est sélectionnée.
+     - Activez **Autoriser GitHub Actions à créer et approuver des pull requests** si nécessaire.
+
+![image](https://github.com/user-attachments/assets/a89f20ba-9ea0-43b2-ae5e-f617ce9645d6)
+
+
 ---
 
 ## **6. Étape finale : Tester le déploiement**
@@ -187,6 +200,12 @@ Avant de commencer, assurez-vous que chaque étudiant a :
    ```
 3. Attendez que le workflow GitHub Actions termine (allez dans l’onglet **Actions** pour vérifier).
 4. Votre site sera disponible à l’adresse : `https://votre_nom_utilisateur.github.io/my-docusaurus-site`.
+
+ A CORRIGER
+
+
+
+
 
 ---
 
