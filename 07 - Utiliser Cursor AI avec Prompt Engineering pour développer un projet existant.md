@@ -86,51 +86,6 @@ Une page d’accueil fonctionnelle avec des blocs interactifs pour chaque catég
 
 
 
--------------
-
-⚠️ **Prompt à copier et coller dans Composer :**  
-> Refactorisez le projet Docusaurus existant pour inclure les améliorations suivantes :  
-> 
-> 1. **Page d’accueil personnalisée** :  
->    - Créez une page d’accueil visuellement engageante avec des blocs représentant les catégories principales suivantes :  
->      - **Linux**  
->      - **Docker**  
->      - **Ansible**  
->      - **Kubernetes**  
->      - **Jenkins**  
->      - **Terraform**  
->      - **GitOps**  
->      - **Helm**  
->      - **Introduction à DevOps**  
->    - Chaque bloc doit inclure :  
->      - Un **titre**.  
->      - Une **icône** (placeholders acceptés).  
->      - Une redirection vers une page placeholder dédiée à chaque catégorie.  
-> 
-> 2. **Pages placeholders** :  
->    - Créez une page placeholder pour chaque catégorie avec un contenu de base expliquant brièvement la catégorie.  
->    - Ces pages n'ont pas besoin d’être affichées dans la sidebar pour l'instant.  
-> 
-> 3. **Amélioration du blog** :  
->    - Rendez le blog plus attrayant avec :  
->      - Une mise en page soignée et professionnelle.  
->      - Des éléments visuels interactifs pour engager les visiteurs.  
->      - Des appels à l’action pour inciter à explorer davantage.  
-> 
-> **Livrable attendu :**  
-> - Une page d’accueil fonctionnelle avec des blocs interactifs pour chaque catégorie.  
-> - Des pages placeholders accessibles via les blocs de la page d’accueil.  
-> - Un blog optimisé, visuellement engageant et digne de générer un trafic massif.  
-
-
-
-
-
-
-
-
-
-
 
 **Instructions de test :**  
 1. **Installation de Docusaurus :**  
