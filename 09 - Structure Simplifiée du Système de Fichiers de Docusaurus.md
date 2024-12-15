@@ -2,6 +2,56 @@
 
 Docusaurus organise les fichiers de manière claire pour séparer les **contenus**, la **configuration** et les **éléments statiques**. Voici une explication simple de chaque dossier et fichier important dans votre projet.
 
+![image](https://github.com/user-attachments/assets/06e4f908-5544-4097-857d-bb2e0e880a2d)
+
+### *Représentation de la structure du système de fichiers de Docusaurus* :
+
+```
+/skillr1
+├── blog/                     # Articles de blog (optionnel)
+│   ├── first-post.md         # Exemple d'article de blog
+│   └── second-post.md        # Un autre article de blog
+├── docs/                     # Contenus de la documentation
+│   ├── intro.md              # Introduction par défaut (modifiable)
+│   ├── linux/                # Dossier pour la catégorie "Linux"
+│   │   ├── introduction.md   # Introduction à Linux
+│   │   ├── tutorial-basics.md# Tutoriel basique sur Linux
+│   │   └── tutorial-extras.md# Tutoriel avancé sur Linux
+│   ├── kubernetes/           # Dossier pour la catégorie "Kubernetes"
+│   │   ├── introduction.md   # Introduction à Kubernetes
+│   │   └── advanced-topics.md# Sujets avancés sur Kubernetes
+├── src/                      # Code source et personnalisation
+│   ├── components/           # Composants React personnalisés
+│   │   └── Navbar.js         # Exemple de composant pour la barre de navigation
+│   ├── css/                  # Styles CSS personnalisés
+│   │   └── custom.css        # Fichier CSS principal
+│   ├── pages/                # Pages personnalisées (hors docs)
+│       ├── about.js          # Page "À propos"
+│       └── contact.js        # Page "Contact"
+├── static/                   # Fichiers statiques (images, vidéos, PDF)
+│   ├── img/                  # Dossier pour les images
+│   │   └── logo.png          # Logo du site
+│   └── pdf/                  # Dossier pour les fichiers PDF
+│       └── guide.pdf         # Un guide téléchargeable
+├── .gitignore                # Exclure certains fichiers du dépôt Git
+├── docusaurus.config.js      # Fichier principal de configuration
+├── sidebars.js               # Configuration de la barre latérale
+├── package.json              # Dépendances et scripts du projet
+├── README.md                 # Documentation pour votre projet
+└── node_modules/             # Dépendances Node.js (générées automatiquement)
+```
+
+### Explication des éléments :
+- **`blog/` :** Contient les articles de blog. Chaque fichier `.md` est un article.
+- **`docs/` :** Contient la documentation principale (les leçons et modules). Les sous-dossiers représentent des catégories.
+- **`src/` :** Gère les composants, styles et pages personnalisées de votre site.
+- **`static/` :** Fichiers accessibles directement via le site (images, PDF, etc.).
+- **`docusaurus.config.js` :** Configuration générale du site (titre, URL, etc.).
+- **`sidebars.js` :** Structure et navigation dans la barre latérale.
+- **`package.json` :** Dépendances nécessaires au projet (gérées par `npm` ou `yarn`).
+
+
+
 ---
 
 #### **1. `docs/`**
