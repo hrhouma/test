@@ -67,7 +67,8 @@
 ⚠️ **Prompt à copier et coller dans Composer :**  
 > Refacorisez le projet Docusaurus existant pour effectuer les tâches suivantes:  
 > - Créez une page d’accueil avec des blocs représentant les catégories principales suivantes :  
->   - **Linux**  
+>   - **Linux**
+>   - **Docker**
 >   - **Ansible**  
 >   - **Kubernetes**  
 >   - **Jenkins**  
