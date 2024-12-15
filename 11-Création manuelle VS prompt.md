@@ -250,4 +250,19 @@ Linux
 
 ---
 
-Avec cette démarche exhaustive, vous pouvez structurer efficacement votre documentation tout en expérimentant avec des approches manuelles et automatisées. 😊
+# Annexe: 
+
+- Avec cette démarche exhaustive, vous pouvez structurer efficacement votre documentation tout en expérimentant avec des approches manuelles et automatisées.
+
+# Résumé  
+
+Super ! Maintenant que ça fonctionne, voici un :
+1. L'ID de la sidebar doit être tutorialSidebar (c'est l'ID par défaut utilisé par Docusaurus)
+L'utilisation de generated-index crée automatiquement une page d'index pour la catégorie
+La structure est maintenant correctement configurée
+Pour référence future, voici les URLs importantes qui sont maintenant disponibles :
+http://localhost:3000/docs/category/linux - Page d'index de la catégorie Linux
+http://localhost:3000/docs/linux/introduction - Page d'introduction
+http://localhost:3000/docs/linux/module1/lesson001 - Première leçon
+Si vous souhaitez ajouter d'autres modules ou sections à l'avenir, vous pourrez simplement suivre le même modèle dans votre sidebars.ts.
+Voulez-vous que je vous montre comment personnaliser davantage la page d'index générée ou ajouter d'autres fonctionnalités ?
