@@ -185,5 +185,63 @@ Avec ce guide, vous devriez être capable de résoudre la plupart des erreurs **
 
 
 
-# Prompt
+
+
+# Annexe 01 - Résolution du Problème "Page Not Found" sur Docusaurus avec l'IA (Composer de Cursor) 
+
+# **Méthodologie : Approche Itérative avec Cursor AI**  
+1. **Tester le chemin suivant dans votre navigateur :**  
+   **http://localhost:3000/docs/intro**  
+
+   **Résultat attendu :** La page s’affiche correctement.  
+   **Résultat actuel :** "Page Not Found"  
+
+2. Utiliser Cursor AI pour identifier et résoudre le problème étape par étape.  
+
+---
+
+# **Étape 1 : Prompt Initial (Il se peut que cela ne fonctionne pas immédiatement)**  
+
+```
+
+# Prompt 01
+
+> Je rencontre un problème avec Docusaurus : la page http://localhost:3000/docs/intro retourne une erreur **Page Not Found**.
+> Cela semble lié à un problème de chemin ou de configuration. Voici les détails :
+> 1. Le fichier `intro.md` est situé dans le répertoire `/docs` et contient cet en-tête frontmatter :
+   ---
+   id: intro
+   title: Introduction
+   ---
+   ## Bienvenue sur votre documentation !
+
+```
+
+2. La configuration dans `docusaurus.config.js` ressemble à ceci :
+
+```javascript
+presets: [
+  [
+    '@docusaurus/preset-classic',
+    {
+      docs: {
+        path: 'docs',
+        routeBasePath: 'docs',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    },
+  ],
+],
+```
+
+3. La commande `npx docusaurus start` démarre le site, mais le chemin `/docs/intro` ne fonctionne pas et retourne une erreur **Page Not Found**.
+
+### Ce que je souhaite :
+1. Diagnostiquer si le problème vient du chemin d’accès, du fichier, ou d'une mauvaise configuration.
+2. S'assurer que la page `/docs/intro` s'affiche correctement sur http://localhost:3000/docs/intro.
+3. Obtenir des étapes claires pour corriger ce problème.
+
+**Tester à nouveau le chemin :**  
+- **Résultat :** Toujours **Page Not Found**  
+
 
