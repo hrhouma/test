@@ -1,4 +1,4 @@
-# **Cours : Fonctionnement du Routage pour la Section "Docs" dans Docusaurus**
+# Fonctionnement du Routage pour la Section "Docs" dans Docusaurus
 
 ---
 
