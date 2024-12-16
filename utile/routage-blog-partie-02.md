@@ -1,4 +1,4 @@
-### **Cours approfondi : Comment Docusaurus gère le routage pour le blog**
+# Partie approfondi : Comment Docusaurus gère le routage pour le blog
 
 Bonjour et bienvenue dans ce cours où nous allons explorer en profondeur comment **Docusaurus**, un outil moderne pour la création de sites web, gère le **routage** de son module de blog. 
 
