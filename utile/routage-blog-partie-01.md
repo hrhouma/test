@@ -1,4 +1,4 @@
-### **Cours : Comprendre le routage de Docusaurus pour /blog**
+# Comprendre le routage de Docusaurus pour /blog
 
 Docusaurus est un framework puissant pour créer des sites web modernes, y compris des blogs. Ce cours vous expliquera en détail comment Docusaurus gère le routage pour le dossier **/blog**. Vous apprendrez à configurer et personnaliser vos articles de blog en utilisant les fonctionnalités natives de Docusaurus.
 
