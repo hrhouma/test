@@ -1,6 +1,6 @@
 
 
-## **1. Prérequis**
+# **1. Prérequis**
 
 Assurez-vous d’avoir :
 - **Node.js** installé (v16 ou supérieur). Vérifiez avec :
@@ -16,7 +16,7 @@ Assurez-vous d’avoir :
 
 ---
 
-## **2. Étape par étape**
+# **2. Étape par étape**
 
 ### **Étape 1 : Préparer la configuration dans `docusaurus.config.ts`**
 
@@ -73,7 +73,7 @@ export default config;
 
 ---
 
-### **Étape 3 : Configurer le dépôt local**
+# **Étape 3 : Configurer le dépôt local**
 
 1. **Initialiser un dépôt Git local (si non fait) :**
    ```bash
@@ -91,7 +91,7 @@ export default config;
 
 ---
 
-### **Étape 4 : Installer les dépendances et tester le site**
+# **Étape 4 : Installer les dépendances et tester le site**
 
 1. **Installer les dépendances :**
    ```bash
@@ -106,7 +106,7 @@ export default config;
 
 ---
 
-### **Étape 5 : Construire le site**
+# **Étape 5 : Construire le site**
 
 1. **Générer les fichiers statiques :**
    ```bash
@@ -122,7 +122,7 @@ export default config;
 
 ---
 
-### **Étape 6 : Créer un workflow GitHub Actions**
+# **Étape 6 : Créer un workflow GitHub Actions**
 
 1. **Créer le dossier de workflow :**
    ```bash
@@ -174,7 +174,7 @@ jobs:
 
 ---
 
-### **Étape 7 : Pousser les modifications**
+# **Étape 7 : Pousser les modifications**
 
 1. **Ajouter et commiter les fichiers :**
    ```bash
@@ -189,18 +189,34 @@ jobs:
 
 ---
 
-### **Étape 8 : Configurer GitHub Pages**
+# **Étape 8 : Configurer GitHub Pages**
 
 1. Accédez à votre dépôt sur GitHub :  
    [https://github.com/hrhouma/skiller2](https://github.com/hrhouma/skiller2).
 
 2. Allez dans l'onglet **Settings > Pages**.
+3. Sous **Source**, sélectionnez **Deploy from a branch** pour activer GitHub Pages.
+4. Sélectionnez **gh-pages** et ensuite **/root**.
 
-3. Sous **Source**, sélectionnez **GitHub Actions** pour activer GitHub Pages.
+![image](https://github.com/user-attachments/assets/0db97454-9b3b-458e-b323-bdccb723fd0d)
+
+
+### **Étape 10 : Vérifier les permissions de GitHub Actions**
+
+1. Assurez-vous que le workflow GitHub Actions dispose des permissions nécessaires pour pousser vers le dépôt. Dans les paramètres du dépôt :
+2. Accédez à **Paramètres > Actions > Général**.
+3. Faites défiler jusqu’à la section **Permissions des workflows**.
+4. Vérifiez que l’option **Permissions en lecture et écriture** est sélectionnée.
+5. Activez **Autoriser GitHub Actions à créer et approuver des pull requests** si nécessaire.
+
+![image](https://github.com/user-attachments/assets/a89f20ba-9ea0-43b2-ae5e-f617ce9645d6)
+
+
+
 
 ---
 
-### **Étape 9 : Vérifier le déploiement**
+### **Étape 11 : Vérifier le déploiement**
 
 1. Allez dans l'onglet **Actions** pour vérifier l'exécution du workflow. Assurez-vous qu'il se termine sans erreur.
 
@@ -208,7 +224,35 @@ jobs:
    ```
    https://hrhouma.github.io/skiller2/
    ```
+![image](https://github.com/user-attachments/assets/ac8de273-ae56-4a6f-a217-5c83ea25e4ae)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------
+---------------------
+----------------------
+----------------------
+----------------------
 ---
 
 ## **Dépannage des problèmes courants**
@@ -483,14 +527,7 @@ Avant de commencer, assurez-vous que chaque étudiant a :
 
 
 
-### 5.3 **Vérifier les permissions de GitHub Actions**
-   - Assurez-vous que le workflow GitHub Actions dispose des permissions nécessaires pour pousser vers le dépôt. Dans les paramètres du dépôt :
-     - Accédez à **Paramètres > Actions > Général**.
-     - Faites défiler jusqu’à la section **Permissions des workflows**.
-     - Vérifiez que l’option **Permissions en lecture et écriture** est sélectionnée.
-     - Activez **Autoriser GitHub Actions à créer et approuver des pull requests** si nécessaire.
 
-![image](https://github.com/user-attachments/assets/a89f20ba-9ea0-43b2-ae5e-f617ce9645d6)
 
 
 ---
