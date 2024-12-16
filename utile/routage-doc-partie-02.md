@@ -1,4 +1,4 @@
-# **Cours Détaillé : Comprendre le Routage dans la Section "Docs" de Docusaurus**
+# *Partie Détaillé : Comprendre le Routage dans la Section "Docs" de Docusaurus*
 
 ---
 
